@@ -1,0 +1,129 @@
+<!-- ALWAYS IDENTIFY THE DOCUMENT TYPE -->
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- Two IMPORTANT meta tags on all website -->
+
+<!-- Changes numbers, letters etc. into bytes -->
+        <meta charset="utf-8">
+<!-- This meta tag makes the website usable on all devices -->
+        <meta name="viewport" content="width=device-width, inital-scale 1">
+<!-- MERGING CSS CODING WITH EXTERNAL HTML CODE -->
+        <link rel="stylesheet" href="style.css">
+<!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b3ab72a6a4.js" crossorigin="anonymous"></script>
+<!-- TAB NAME -->
+        <title>My First Website</title>
+
+    </head>
+<!-- ALL THE CONTENT OF THE WEBSITE NEEDS TO BE INSIDE <body> </body> TAGS -->
+
+    <body>
+        <header>
+            <h1>My First Website</h1>
+            <h2>Practicing HTML and CSS coding</h2>
+        </header>
+
+        
+        <div class="navBar">
+            <a href="index.html"><button class="homeButton"><img src="C:\Users\kylef\Desktop\Stuff\Work\Projects\First Coding Project\Images\home button pic.png" alt="homeButton" height="30"></button></a>
+            <nav>
+                <ul class="navLinks">
+                    <li><a class="countriesbtn" href="countries.html"><button>Countries</button></a></li>
+
+                    <li><a class="statbtn" href="statistics.html"><button>Statistics</button></a></li>
+
+                    <li><a class="abtbtn" href="about.html"><button>About</button></a></li>
+
+                    <li><a class="imgsbtn" href="images.html"><button>Images</button></a></li>
+                    
+                    <li><a class="helpbtn" href="help.html"><button>Help</button></a></li>
+
+                    <li><i class="fa-solid fa-xmark"></i></li>
+                </ul>
+                
+            </nav>
+        </div>
+        <div class="navBarMenu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="content">
+            <section class="intro">
+                <h3>Introduction</h3>
+                <p>In this website, i am going to practice HTML coding, i will learn everything that i can before i take this job in order to be well prepared for anything that i come across in the early stages of my employment. I will be starting by learning HTML code but i hope to move on to CSS, javascript etc.</p>
+            </section>  
+
+            <section class="paragraphHere">
+                <h3>Paragraph here</h3>
+                <p>Phasellus quis lorem fringilla tellus lacinia dignissim. Duis iaculis tristique dictum. Etiam quis sollicitudin dolor, eu tincidunt urna. Maecenas tempus finibus velit eget gravida. Ut sed metus ut dolor convallis porttitor eu ut lorem. Suspendisse aliquam nisl et magna scelerisque pharetra non vitae metus. Morbi fringilla orci non erat rhoncus fringilla. Quisque venenatis nulla in augue pretium consectetur. Suspendisse finibus elit est, at mattis ipsum rutrum vel. Morbi tortor lectus, faucibus ut interdum et, consequat nec libero. Cras sollicitudin varius lacus, ut elementum eros mollis et. Duis nec justo vulputate felis vulputate faucibus. Aliquam a euismod mauris.</p>
+            </section> 
+
+    <!-- ADD CAPTIONS TO IMAGES - WHEN HOVER SHOW DESCRIPTION -->
+
+            <section class="images">
+                <h3>Cities That I Have Visited</h3>
+                <div class="imageRow">
+                    <div class="imageCol">
+                        <img src="https://cdn.theculturetrip.com/wp-content/uploads/2017/02/gran-via-main-shopping-street-in-madrid.jpg">
+                        <h4>Madrid</h4>
+                        <p>I visited Madrid when I travelled to Spain in November of 2021</p>
+                    </div>
+                    <div class="imageCol">    
+                        <img src="C:\Users\kylef\Desktop\Stuff\Work\Projects\First Coding Project\Images\medellin.jpg">
+                        <h4>Medellin</h4>
+                        <p>I visited Medellin when I travelled to Colombia in April of 2022, it is such a great city</p>
+                    </div>
+                    <div class="imageCol">
+                        <img src="https://img1.10bestmedia.com/Images/Photos/378847/GettyImages-1085317916_54_990x660.jpg">
+                        <h4>Barcelona</h4>
+                        <p>I also visited Barcelona when I travelled to Spain in November of 2021</p>
+                    </div>
+                </div>
+                <a class="findOutMoreBtn" href="countries.html">FIND OUT MORE</a>                          
+            </section>
+
+            <section class="table">
+                <h3>Statistics</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kyle Fellenger</td>
+                            <td>20</td>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <td>Cameron Fellenger</td>
+                            <td>22</td>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <td>Keira Fellenger</td>
+                            <td>15</td>
+                            <td>Female</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+            </div>
+            <a class="goTopButton" href="#"><img src="C:\Users\kylef\Desktop\Stuff\Work\Projects\First Coding Project\Images\up arrow.png" height="30"></a>
+        </div>
+
+<!----JavaScript for toggle menu for small screen-->
+        
+    </body>
+</html>
+
+<!-- TO MAKE NEW TAB/PAGE, CREATE NEW HTML DOCUMENT AND LINK THE BUTTON TO THAT NEW PAGE :) -->
